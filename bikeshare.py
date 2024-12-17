@@ -170,7 +170,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_raw_data(df):
-    """Displays raw data."""
+    """Displays raw data. This displays 5 at a time. """
 
     cnt = len(df)       
     response = input(f'Would you like to see raw data? There are {cnt} raw data. Enter yes or no.\n')
